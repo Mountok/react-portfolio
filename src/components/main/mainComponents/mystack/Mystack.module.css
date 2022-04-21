@@ -14,9 +14,28 @@
     height: 1px;
     left: 0;
     top: 0;
-    box-shadow: 0 0 10px 10px #0d2131;
+    background-color: #0d2131;
+    box-shadow: 0 0 9px 15px #0d2131;
 }
 .mystack_page_header{
-    color: white;
-    font-size: 25px;
+    padding: 20px 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 145, 0);;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+}
+.mystack_page_header::after{
+    position: absolute;
+    content: '';
+    width: 10%;
+    height: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    background-color: rgb(255, 145, 0);
 }
