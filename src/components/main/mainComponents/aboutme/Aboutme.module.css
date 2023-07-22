@@ -1,0 +1,40 @@
+.aboutme_page{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-image: url(../../../../assets/images/unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutme_page::after{
+    position: absolute;
+    content: '';
+    width: inherit;
+    height: inherit;
+    background-color: black;
+    opacity: .5;
+    z-index: 0;
+}
+
+.aboutme_page_title{
+    z-index: 1;
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+}
+.aboutme_page_title span{
+    color: rgb(255, 145, 0);;
+}
+.aboutme_page_subtitle{
+    z-index: 1;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    color: rgb(255, 145, 0);
+}
