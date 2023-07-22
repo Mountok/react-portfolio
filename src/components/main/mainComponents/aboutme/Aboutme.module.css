@@ -11,13 +11,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+
 }
+
 .aboutme_page::after{
     position: absolute;
     content: '';
     width: inherit;
     height: inherit;
-    background-color: black;
+    background-color: rgb(1, 17, 46);
     opacity: .5;
     z-index: 0;
 }
