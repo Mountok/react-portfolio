@@ -29,7 +29,7 @@ const MyExp = () => {
                 <p className={styles.main_item_text}>Learning to create my first web application using previously learned</p>
             </div>
             <div className={styles.main_item}>
-                <p className={styles.main_item_header}>2023, Summer (Nowadays) </p>
+                <p className={styles.main_item_header}>2023, Summer </p>
                 <p className={styles.main_item_text}>Taught basic React.js & Socket.io</p>
             </div>
             <div className={styles.main_item}>

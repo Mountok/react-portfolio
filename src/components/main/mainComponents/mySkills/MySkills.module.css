@@ -1,0 +1,29 @@
+.mySkills_page{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    position: relative;
+    background-color: white;
+}
+.header{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 145, 0);;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.header::after{
+    position: absolute;
+    content: '';
+    width: 10%;
+    height: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    background-color: rgb(255, 145, 0);
+    border-radius: 1px;
+}

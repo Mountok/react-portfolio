@@ -36,8 +36,29 @@
     color: rgb(255, 145, 0);;
 }
 .aboutme_page_subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     z-index: 1;
-    margin-top: 20px;
+    margin-top: 10px;
     letter-spacing: 2px;
     color: rgb(255, 145, 0);
 }
+.aboutme_page_subtitle a:nth-child(1) img{
+    width: 25px;
+    height: 25px;
+    margin: 0px 10px;
+}
+/* .aboutme_page_subtitle a:nth-child(2) img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+    
+} */
+.aboutme_page_subtitle a{
+    transition: all .3s linear;
+}
+.aboutme_page_subtitle a:hover{
+    transform: translateY(-5px);
+}
+
