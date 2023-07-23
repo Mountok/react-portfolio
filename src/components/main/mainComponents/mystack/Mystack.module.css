@@ -52,11 +52,13 @@
 
 
 .mystack_page_main_item{
+    margin:  20px 0px;
+    background-color: #10283b;
     display: flex;
     flex-direction: column;
     width: 200px;
-    border-radius: 3px;
-    padding: 10px  5px;
+    padding: 10px ;
+    box-shadow: 0px 0px 3px 10px #10283b;
 }
 
 .mystack_page_main_item_header{
